@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,300;7..72,400;7..72,500;7..72,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/formatos.css">
+  <title>Cadastro</title>
+</head>
+<body class="bd-default-color main-content">
+  <header class="bg-dark">
+    <nav>
+      <ul class="nav p-2">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="receitas.html">Receitas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-light" href="cadastro.html">Cadastro</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="d-flex justify-content-center flex-column align-items-center main-content">
+    <section class="w-100 pl-4">
+      <h1>Efetue seu Cadastro</h1>
+      <form class="w-50">
+        <div class="form-group row">
+          <label for="nome" class="mr-2">Nome</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control form-control-sm" id="nome">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="email">E-mail</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control form-control-sm" id="email">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="CEP" style="margin-right: 20px;">CEP</label>
+          <div class="col-sm-5">
+            <input type="text" class="form-control form-control-sm" id="CEP">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="rua" style="margin-right: 20px;">Rua</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control form-control-sm" id="rua">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="rua-num" style="margin-right: 28px;">Nº</label>
+          <div class="col-sm-2">
+            <input type="text" class="form-control form-control-sm" id="rua-num">
+          </div>
+          <label for="rua-compl" style="margin-right: 55px;">Complemento</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control form-control-sm" id="rua-compl">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="cidade" style="margin-right: -5px">Cidade</label>
+          <div class="col-sm-7">
+            <input type="text" class="form-control form-control-sm" id="cidade">
+          </div>
+          <label for="uf" style="margin-right: 60px;">UF</label>
+          <div class="col-sm-2">
+            <input type="text" class="form-control form-control-sm" id="uf">
+          </div>
+          <button class="btn btn-secondary">Cadastrar</button>
+        </div>
+
+      </form>
+    </section>
+  </main>
+  <footer class="fixed-bottom bg-dark">
+    <div class="d-flex justify-content-center text-light align-items-center p-2">
+      <h3>
+        ©Jurema 2022
+      </h3>
+    </div>
+  </footer>
+</body>
+</html>
