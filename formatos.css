@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Literata', serif;
 }
 
 .logo {
@@ -13,4 +14,17 @@
 
 .bd-default-color {
   background-color: #e9967a;
+}
+
+.main-content {
+  width: 100vw;
+  height: 80vh;
+}
+
+.remove-bottom {
+  margin-bottom: -5px
+}
+
+.card-min-height {
+  min-height: 550px;
 }
